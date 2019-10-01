@@ -110,7 +110,7 @@ funFooter.addEventListener("mouseout", () => {
  });
  
 
-
+//prevent default
  const stopLink = document.querySelectorAll(".nav-link");
 
  stopLink.forEach((item) => {
